@@ -22,15 +22,15 @@ processor:
   feedbackprocess: | 
     var pos = feedbackString.trim();
   correctcheck: |
-    pos.includes("0, 5, 10, 0, 3, 4.0, 0, 1, 2, 4, 3, 4.")
+    pos.includes("0,5,10,0,3,4.0,0,1,2,4,3,4.")
   incorrectchecks:
     - incorrectcheck: |
-        pos.includes("0, 5, 10, 0, 3, 4,") || pos.includes("0, 0, 1, 2, 4, 3, 4,")
+        pos.includes("0,5,10,0,3,4,") || pos.includes("0,0,1,2,4,3,4,")
       feedback: "Try again. Be careful not to include a comma at the end!"
     
     - incorrectcheck: |
-        pos.includes("0,5,10,0,3,4") || pos.includes("0,0,1,2,4,3,4")
-      feedback: "Try again. Be sure to include spaces after commas!"    
+        pos.includes("0, 5, 10, 0, 3, 4") || pos.includes("0, 0, 1, 2, 4, 3, 4")
+      feedback: "Try again. Be sure not to include anything after the commas!"    
  
 files:
   - filename: "ArrayPrinter.java"
