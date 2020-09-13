@@ -21,7 +21,7 @@ processor:
   feedbackprocess: | 
     var pos = feedbackString.trim();
   correctcheck: |
-    pos.includes("Freshmen.Freshmen.Freshmen.Freshmen.Freshmen.Freshmen.Freshmen.Freshmen.Freshmen.Freshmen.Sophomore.Sophomore.Sophomore.Sophomore.Sophomore.Sophomore.Sophomore.Sophomore.Sophomore.Sophomore")
+    pos.includes("Freshmen.Freshmen.Freshmen.Freshmen.Freshmen.Freshmen.Freshmen.Freshmen.Freshmen.Freshmen.Sophomore.Sophomore.Sophomore.Sophomore.Sophomore.Sophomore.Sophomore.Sophomore.Sophomore.Sophomore") || pos.includes("Freshman.Freshman.Freshman.Freshman.Freshman.Freshman.Freshman.Freshman.Freshman.Freshman.Sophomore.Sophomore.Sophomore.Sophomore.Sophomore.Sophomore.Sophomore.Sophomore.Sophomore.Sophomore")
   incorrectchecks:
     - incorrectcheck: |
         pos.includes("Freshmen.Freshmen.Freshmen.Freshmen.Freshmen.Freshmen.Freshmen.Freshmen.Freshmen.Freshmen.Freshmen.Freshmen.Freshmen.Freshmen.")
@@ -41,7 +41,7 @@ files:
           private String classYear;
           
           // Constructor.  When I say new Student(), it will call this
-          // method to intialize a new object of type student
+          // method to initialize a new object of type student
           /**
           * @param a Age of student I'm making
           * @param f First name of student I'm making
