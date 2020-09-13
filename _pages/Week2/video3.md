@@ -1,8 +1,8 @@
 ---
 layout: module
 permalink: Module1/Video3
-title: "CS174: Module 1: Classes Static Types And Information Hiding"
-excerpt: "CS174: Module 1: Classes Static Types And Information Hiding"
+title: "CS174: Module 1: Classes, Static Methods, Arrays of Objects"
+excerpt: "CS174: Module 1: Classes, Static Methods, Arrays of Objects"
 
 info:
   next: "./Exercise3"
