@@ -21,7 +21,7 @@ processor:
   feedbackprocess: | 
     var pos = feedbackString.trim();
   correctcheck: |
-    pos.includes("Freshmen.Freshmen.Freshmen.Freshmen.Freshmen.Freshmen.Freshmen.Freshmen.Freshmen.Freshmen.Sophomore.Sophomore.Sophomore.Sophomore.Sophomore.Sophomore.Sophomore.Sophomore.Sophomore.Sophomore") || pos.includes("Freshman.Freshman.Freshman.Freshman.Freshman.Freshman.Freshman.Freshman.Freshman.Freshman.Sophomore.Sophomore.Sophomore.Sophomore.Sophomore.Sophomore.Sophomore.Sophomore.Sophomore.Sophomore")
+    pos.includes("Freshmen.Freshmen.Freshmen.Freshmen.Freshmen.Freshmen.Freshmen.Freshmen.Freshmen.Freshmen.Sophomore.Sophomore.Sophomore.Sophomore.Sophomore.Sophomore.Sophomore.Sophomore.Sophomore.Sophomore") || pos.includes("Freshman.Freshman.Freshman.Freshman.Freshman.Freshman.Freshman.Freshman.Freshman.Freshman.Sophomore.Sophomore.Sophomore.Sophomore.Sophomore.Sophomore.Sophomore.Sophomore.Sophomore.Sophomore") || pos.includes("freshman.freshman.freshman.freshman.freshman.freshman.freshman.freshman.freshman.freshman.sophomore.sophomore.sophomore.sophomore.sophomore.sophomore.sophomore.sophomore.sophomore.sophomore")
   incorrectchecks:
     - incorrectcheck: |
         pos.includes("Freshmen.Freshmen.Freshmen.Freshmen.Freshmen.Freshmen.Freshmen.Freshmen.Freshmen.Freshmen.Freshmen.Freshmen.Freshmen.Freshmen.")
