@@ -11,7 +11,7 @@ info:
   prev: "./Video1"
   next: "./Video2"
   points: 1
-  instructions: "Fill in the static method <code>convertArrayToMap(Student[] sarray)</code> in the <code>Student</code> class, which takes in an array of students and creates a HashMap whose key is the Student's last name and whose value is the Student object.<BR><b>NOTE</b>: If you get <code>Error: map.get(...) is null</code>, then it means that it's not finding the keys it's looking for.  Be sure that your keys are the last name and not the first name.  Also be sure that you used the <code>put</code> method of <code>HashMap</code> to fill it in."
+  instructions: "Fill in the static method <code>convertArrayToMap(Student[] sarray)</code> in the <code>Student</code> class, which takes in an array of students and creates a HashMap whose key is the Student's <b>last name</b> and whose value is the Student object.<BR><b>NOTE</b>: If you get <code>Error: map.get(...) is null</code>, then it means that it's not finding the keys it's looking for.  Be sure that your keys are the last name and not the first name.  Also be sure that you used the <code>put</code> method of <code>HashMap</code> to fill it in."
   goals:
     - Copy data from one type of collection to another
     - Put key/value pairs into a HashMap data structure
