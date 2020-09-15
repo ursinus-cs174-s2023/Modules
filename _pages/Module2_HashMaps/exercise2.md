@@ -1,15 +1,11 @@
 ---
 layout: exercise
 permalink: /Module2/Exercise2
-title: "CS174: Module 1: Hash Maps Exercise 2"
-excerpt: "CS174: Module 1: Hash Maps Exercise 2"
-canvasasmtid: "99538"
-canvaspoints: "1"
-canvashalftries: 5
+title: "CS174: Module 1: Hash Maps Exercise 2 (Ungraded / For Practice)"
+excerpt: "CS174: Module 1: Hash Maps Exercise 2 (Ungraded / For Practice)"
 
 info:
   prev: "./Video2"
-  points: 1
   instructions: "Fill in the static method <code>getAgeCount(HashMap<Integer, Student[]> studentMap, int age)</code> in the <code>Student</code> class.  This method takes in a HashMap whose keys are an <code>Integer</code> representing an age, and whose values are <code>Student[]</code> arrays of students, as well as an age of interest.  This method should return an int which says how many students are of the particular age."
   goals:
     - Manipulate key/value pairs into a HashMap data structure
