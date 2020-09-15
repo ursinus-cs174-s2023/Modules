@@ -3,17 +3,16 @@ layout: exercise
 permalink: /Module2/Exercise2
 title: "CS174: Module 1: Hash Maps Exercise 2"
 excerpt: "CS174: Module 1: Hash Maps Exercise 2"
-canvasasmtid: "99371"
+canvasasmtid: "99538"
 canvaspoints: "1"
 canvashalftries: 5
 
 info:
   prev: "./Video2"
   points: 1
-  instructions: "Fill in the static method <code>convertArrayToMap(Student[] sarray)</code> in the <code>Student</code> class, which takes in an array of students and creates a HashMap whose key is the Student's last name and whose value is the Student object.<BR><b>NOTE</b>: If you get <code>Error: map.get(...) is null</code>, then it means that it's not finding the keys it's looking for.  Be sure that your keys are the last name and not the first name.  Also be sure that you used the <code>put</code> method of <code>HashMap</code> to fill it in."
+  instructions: "Fill in the static method <code>getAgeCount(HashMap<Integer, Student[]> studentMap, int age)</code> in the <code>Student</code> class.  This method takes in a HashMap whose keys are an <code>Integer</code> representing an age, and whose values are <code>Student[]</code> arrays of students, as well as an age of interest.  This method should return an int which says how many students are of the particular age."
   goals:
-    - Copy data from one type of collection to another
-    - Put key/value pairs into a HashMap data structure
+    - Manipulate key/value pairs into a HashMap data structure
     
 processor:  
   correctfeedback: "Correct!!" 
@@ -22,11 +21,11 @@ processor:
   feedbackprocess: | 
     var pos = feedbackString.trim();
   correctcheck: |
-    pos.includes("Allen Iverson.Jamal Murray.Kevin Durant")
+    pos.includes("5.4.3.2")
   incorrectchecks:
     - incorrectcheck: |
-        pos.includes("null")
-      feedback: "Try again. Be sure that the key is the last name, not the first name!"  
+        pos.includes("0.0.0.0")
+      feedback: "Try again. Looks like you're returning a length of 0 for every input."  
  
 files:
   - filename: "Student.java"
@@ -37,12 +36,14 @@ files:
     code: | 
       public class Student {
           /**
-           * Convert an array of students into a HashMap, where the key is
-           * the student's last name, and the value is the student object
-           * @param sarray The array of students
-           * @returns A hash map with key as the student last name and value as the student object
+           * Figure out how many students of a particular age you have 
+           * @param studentMap A hash map with an Integer age as a key and
+           *                   an array of Student objects who are that age
+           *                   as its value
+           * @param age The age we're interested in querying
+           * @returns How many students there are of that age
            **/
-          public static int getAgeCount(HashMap<Integer, Student[]> studentMap) {
+          public static int getAgeCount(HashMap<Integer, Student[]> studentMap, int age) {
               // TODO: Fill this in
               return 0;
           }
@@ -129,23 +130,28 @@ files:
             }
             studentMap.put(15, fifteenYearOlds);
             
-            Student[] sixteenYearOlds = new Student[5];
-            for (int i = 0; i < 5; i++) {
+            Student[] sixteenYearOlds = new Student[4];
+            for (int i = 0; i < 4; i++) {
                 sixteenYearOlds[i] = s[i+5];
             }
             studentMap.put(16, sixteenYearOlds);
             
-            Student[] seventeenYearOlds = new Student[5];
-            for (int i = 0; i < 5; i++) {
+            Student[] seventeenYearOlds = new Student[3];
+            for (int i = 0; i < 3; i++) {
                 seventeenYearOlds[i] = s[i+10];
             }
             studentMap.put(17, seventeenYearOlds);
             
-            Student[] eighteenYearOlds = new Student[5];
-            for (int i = 0; i < 5; i++) {
+            Student[] eighteenYearOlds = new Student[2];
+            for (int i = 0; i < 2; i++) {
                 eighteenYearOlds[i] = s[i+15];
             }
             studentMap.put(18, eighteenYearOlds);
+            int c15 = Student.getAgeCount(studentMap, 15);
+            int c16 = Student.getAgeCount(studentMap, 16);
+            int c17 = Student.getAgeCount(studentMap, 17);
+            int c18 = Student.getAgeCount(studentMap, 18);
+            System.out.print(c15 + "." + c16 + "." + c17 + "." + c18);
           }
       }  
 

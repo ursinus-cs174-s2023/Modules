@@ -3,7 +3,7 @@ layout: exercise
 permalink: /Module2/Exercise1
 title: "CS174: Module 1: Hash Maps Exercise 1"
 excerpt: "CS174: Module 1: Hash Maps Exercise 1"
-canvasasmtid: "99371"
+canvasasmtid: "99537"
 canvaspoints: "1"
 canvashalftries: 5
 

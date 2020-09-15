@@ -29,6 +29,20 @@ function feedbackPrint(s) {
 }
 
 /**
+ * Remove template syntax from the code
+ * @param {string} s Code to modify 
+ */
+function removeTemplates(s) {
+    let patterns = ["<String, Student>", "<>", "<Integer, Student[]>"];
+    for (let i = 0; i < patterns.length; i++) {
+        while (s.indexOf(patterns[i]) > -1) {
+            s = s.replace(patterns[i], "");
+        }
+    }
+    return s;
+}
+
+/**
  * Take code from the browser and put it into a form that can be sent to processing
  * 
  * @param {*} codeString All Java code (except for the main) that should be executed, as a string
@@ -45,6 +59,7 @@ function makeCodeJavaProcessing(codeString, mainString) {
     // TODO: Hack for dealing with the fact that chars are cast to
     // ints in this transpiler
     str = str.replace(/'/g, "\"");
+    str = removeTemplates(str);
     console.log(str);
     return str;
 }
@@ -56,24 +71,5 @@ function makeCodeJavaProcessing(codeString, mainString) {
 function getHTMLWhitespace(s) {
     s = s.replace("\n", "<BR>");
     s = s.replace("\t", "&nbsp&nbsp&nbsp&nbsp");
-    return s;
-}
-
-function removeTemplate(s) {
-    while (s.indexOf("<Integer>") > -1) {
-        s = s.replace("<Integer>", "");
-    }
-    while (s.indexOf("<String>") > -1) {
-        s = s.replace("<String>", "");
-    }
-    while (s.indexOf("<String, Integer>") > -1) {
-        s = s.replace("<String, Integer>", "");
-    }
-    while (s.indexOf("<Integer, Integer>") > -1) {
-        s = s.replace("<Integer, Integer>", "");
-    }
-    while (s.indexOf("<>") > -1) {
-        s = s.replace("<>", "");
-    }
     return s;
 }
