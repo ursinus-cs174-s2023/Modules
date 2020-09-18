@@ -10,7 +10,7 @@ canvashalftries: 5
 info:
   prev: "./Video3"
   points: 1
-  instructions: "Fill in the static method <code>makeStudents()</code> to return an array of 20 students, the first 10 of whom are freshmen, and the last 10 of whom are sophomores.  It does not matter what their age or name is, so you can pass anything you want for those fields in the constructor."
+  instructions: "Fill in the static method <code>makeStudents()</code> to return an array of 20 students, the first 10 of whom are freshmen, and the last 10 of whom are sophomores.  It does not matter what their age or name is, so you can pass anything you want for those fields in the constructor.  <b>Please use loops here!</b>.  There's no need to write out 20 different students.  Instead, create a loop that creates the first 10 students, each as a 'Freshman', and then a second loop that fills in the last 10 students, each as a 'Sophomore'"
   goals:
     - Define a static variable and changes its state from an instance method
     

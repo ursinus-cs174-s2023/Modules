@@ -39,7 +39,7 @@ files:
            * @param age The age we're interested in querying
            * @returns How many students there are of that age
            **/
-          public static int getAgeCount(HashMap<Integer, Student[]> studentMap, int age) {
+          public static int getAgeCount(HashMap&ltInteger, Student[]&gt studentMap, int age) {
               // TODO: Fill this in
               return 0;
           }
@@ -119,7 +119,7 @@ files:
             s[18] = new Student(18, "Steph", "Curry", "Senior");
             s[19] = new Student(18, "Charles", "Barkley", "Senior");
             
-            HashMap<Integer, Student[]> studentMap = new HashMap<>();
+            HashMap&ltInteger, Student[]&gt studentMap = new HashMap<>();
             Student[] fifteenYearOlds = new Student[5];
             for (int i = 0; i < 5; i++) {
                 fifteenYearOlds[i] = s[i];

@@ -43,8 +43,8 @@ files:
            * @param sarray The array of students
            * @returns A hash map with key as the student last name and value as the student object
            **/
-          public static HashMap<String, Student> convertArrayToMap(Student[] sarray) {
-              HashMap<String, Student> studentMap = new HashMap<>();
+          public static HashMap&ltString, Student&gt convertArrayToMap(Student[] sarray) {
+              HashMap&ltString, Student&gt studentMap = new HashMap<>();
               // TODO: Fill this in with a for loop
               return studentMap;
           }
@@ -124,7 +124,7 @@ files:
             s[18] = new Student(18, "Steph", "Curry", "Senior");
             s[19] = new Student(18, "Charles", "Barkley", "Senior");
 
-            HashMap<String, Student> map = Student.convertArrayToMap(s);
+            HashMap&ltString, Student&gt map = Student.convertArrayToMap(s);
             String s1 = map.get("Iverson").getFullName();
             String s2 = map.get("Murray").getFullName();
             String s3 = map.get("Durant").getFullName();
