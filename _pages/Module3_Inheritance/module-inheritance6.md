@@ -15,12 +15,9 @@ Please <a href = "https://ursinus.instructure.com/courses/11017/quizzes/10582/ta
 <p>
 <ul>
 <li>
-  The <code>extends</code> keyword can be used to automatically transfer the functionality of a <i>superclass</i> to a <i>subclass</i>.  The subclass <i>inherits</i> all of the methods and variables of the superclass.
+  The <code>protected</code> keyword is used to share information among classes and their subclasses within a package, but to hide it from classes outside of the package
 </li>
 
-<li>
-  The <code>super</code> keyword can be used to access methods and variables that are part of a super class from within one of its subclasses.  It's like the <code>this</code> keyword, but for superclass methods/variables specifically
-</li>
 
 </ul>
 
