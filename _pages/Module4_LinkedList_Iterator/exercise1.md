@@ -3,7 +3,7 @@ layout: exercise
 permalink: /Module4/Exercise1
 title: "CS174: Module 4: Linked List Exercise"
 excerpt: "CS174: Module 4: Linked List Exercise"
-canvasasmtid: "99537"
+canvasasmtid: "101709"
 canvaspoints: "1"
 canvashalftries: 5
 
