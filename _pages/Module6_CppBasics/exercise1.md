@@ -1,20 +1,22 @@
 ---
 layout: exercise_cpp
 permalink: /Module6/Exercise1
-title: "CS174: Module 6: C++ Basics"
-excerpt: "CS174: Module 6: C++ Basics"
-canvasasmtid: "101709"
-canvaspoints: "1"
+title: "CS174: Module 6: C++ Basics Part 1"
+excerpt: "CS174: Module 6: C++ Basics Part 1"
+canvasasmtid: "102599"
+canvaspoints: "1.5"
 canvashalftries: 5
 
 info:
   prev: "./Video1"
   next: "./Video2"
-  points: 1
-  instructions: "Fill in the <code>removeByIndex</code> method that removes an element at a particular index in a LinkedList, if we assume that the elements are indexed starting at 0 at the head."
+  points: 1.5
+  instructions: "Create a method printDivisibleBy6() which takes one argument, and which prints the numbers from 6 up to and including the specified argument that are divisible by 6.  Please put a space in between each number.  As a hint, logical AND is also && in C++, just as it is in Java.  So for a number to be divisible by 6, you should use this to check that the number has a remainder of 0 when divided b 2, and also by 3."
   goals:
-    - Work with object references
-    - Implement fundamental operations in collections/containers
+    - Declare methods in C++
+    - Work with loops in C++
+    - Use conditionals in C++
+    - Use basic print statements in C++
     
 processor:  
   correctfeedback: "Correct!!" 
@@ -23,11 +25,11 @@ processor:
   feedbackprocess: | 
     var pos = runtime.text.trim();
   correctcheck: |
-    pos.includes("1 6 10 5 0 .1 6 10 0 .1 10 0")
+    pos.includes("6 12 18 24 30 36 42 48 54 60 66 72 78 84 90 96 102 108 114 120 126 132 138 144 150 156 162 168 174 180 186 192 198 204 210 216 222 228 234 240 246 252 258 264 270 276 282 288 294 300 306 312 318 324 330 336 342 348 354 360 366 372 378 384 390 396 402 408 414 420 426 432 438 444 450 456 462 468 474 480 486 492 498 .6 12 18 24 30 36 42 48")
   incorrectchecks:
     - incorrectcheck: |
-        pos.includes("1 6 8 10 5 0 .1 6 8 10 5 0 .1 6 8 10 5 0")
-      feedback: "Try again. It looks like you're not actually removing anything from the list."  
+        pos.includes("61218")
+      feedback: "Try again. Please print exactly one space after each number."  
  
 files:
   - filename: "Student Code"
@@ -38,11 +40,7 @@ files:
     code: | 
         #include &ltstdio.h&gt
 
-        void getPrimes(int N) {
-            for (int i = 0; i < N; i++) {
-                printf("%i ", i);
-            }
-        }
+        // TODO: Fill in your printDivisibleBy6() method here
 
 
   - filename: "Main Area"
@@ -52,7 +50,9 @@ files:
     isvisible: true
     code: | 
       int main() {
-          getPrimes(10);
+          printDivisibleBy6(500);
+          printf(".");
+          printDivisibleBy6(50);
           printf("\n");
       }
         
