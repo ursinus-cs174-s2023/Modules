@@ -53,6 +53,7 @@ files:
     code: | 
       int main() {
           getPrimes(10);
+          printf("\n");
       }
         
 ---

@@ -260,6 +260,7 @@ submitformlinkdirections: "Clicking Run below will check your work and, if it pa
                 this.feedbackElem = feedbackElem;
                 this.state = '';
                 this.wasReady = false;
+                this.timesRun = 0;
 
                 this.process = new ProcessManager(name, name, workerPath)
                 this.process.setStatus = this.setStatus.bind(this);
@@ -349,9 +350,22 @@ submitformlinkdirections: "Clicking Run below will check your work and, if it pa
 
         runtime.process.print({ text: 'Preparing runtime...\n\n' });
         runtime.process.workerRunDone = args => {
-            runtime.process.setStatus('ready', 'Ready', false);
-            feedback.setValue(runtime.text);
-            checkAnswer();
+            runtime.timesRun++;
+            if (runtime.timesRun < 3) {
+                // For some reason it needs to be run more than once
+                // for the text to fully update
+                runtime.resetText();
+                runtime.process.worker.postMessage({
+                    function: 'run',
+                    wasmBinary: clangOutput,
+                });
+            }
+            else {
+                runtime.process.setStatus('ready', 'Ready', false);
+                feedback.setValue(runtime.text);
+                checkAnswer();
+            }
+
         };
         runtime.process.workerDebugReplaceBinary = args => {
             console.log('new size:  ' + args.newBinary.length + '\n');
@@ -391,19 +405,20 @@ submitformlinkdirections: "Clicking Run below will check your work and, if it pa
             clang.process.setStatus('busy', 'Running');
             let codeText = getCodeText();
             compiledCode = codeText;
+            console.log(codeText);
             clang.process.worker.postMessage({
                 function: 'compile',
                 code: codeText,
             });
         }
-
+        
         function run() {
+            runtime.timesRun = 0;
             correctArea.innerHTML = "<font color = blue>Running...</font>";
             let codeText = getCodeText();
             if (!(codeText === compiledCode)) {
                 compiler.setValue("Warning: It looks like you edited code since you last compiled\nBe sure to compile again before running!");
             }
-            numAttempts++;
             runtime.process.setStatus('busy', 'Running');
             if (clangOutput === null) {
                 alert("Need to compile code first!");
