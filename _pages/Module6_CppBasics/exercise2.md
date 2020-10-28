@@ -68,6 +68,7 @@ files:
           rev = reverseArray(arr2, 9);
           printf(".");
           printArray(rev, 9);
+          delete[] rev;
           return 0;
       }
         
