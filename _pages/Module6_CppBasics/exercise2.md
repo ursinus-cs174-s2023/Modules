@@ -14,7 +14,7 @@ info:
   goals:
     - Work with loops in C++
     - Declare dynamic arrays in C++
-    - Fill in arrays in C++
+    - Index arrays in C++
     
 processor:  
   correctfeedback: "Correct!!" 
