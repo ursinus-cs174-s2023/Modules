@@ -12,8 +12,8 @@
    viewBox="0 0 215.63046 307.93411"
    version="1.1"
    id="svg8"
-   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
-   sodipodi:docname="Pointers.svg">
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
+   sodipodi:docname="Module7Pointers.svg">
   <defs
      id="defs2">
     <marker
@@ -114,8 +114,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.7"
-     inkscape:cx="370.24553"
-     inkscape:cy="496.52985"
+     inkscape:cx="345.79689"
+     inkscape:cy="610.81556"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
@@ -137,7 +137,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -177,15 +177,15 @@
        y="100.14552" />
     <text
        xml:space="preserve"
-       style="font-size:7.05556px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
-       x="146.65475"
-       y="108.47917"
+       style="font-size:7.05556011px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;stroke-width:0.26458299"
+       x="137.58333"
+       y="108.1012"
        id="text847"><tspan
          sodipodi:role="line"
          id="tspan845"
-         x="146.65475"
-         y="108.47917"
-         style="stroke-width:0.264583">int x = 10;</tspan></text>
+         x="137.58333"
+         y="108.1012"
+         style="stroke-width:0.26458299">int x = 10;</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:7.05556px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
@@ -221,15 +221,15 @@
        y="137.25363" />
     <text
        xml:space="preserve"
-       style="font-size:7.05556px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
-       x="146.65477"
-       y="117.17262"
+       style="font-size:7.05556011px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;stroke-width:0.26458299"
+       x="136.82739"
+       y="118.30655"
        id="text1139"><tspan
          sodipodi:role="line"
          id="tspan1137"
-         x="146.65477"
-         y="117.17262"
-         style="stroke-width:0.264583">(4 bytes)</tspan></text>
+         x="136.82739"
+         y="118.30655"
+         style="stroke-width:0.26458299">(4 bytes)</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:7.05556px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
@@ -247,19 +247,19 @@
        id="path1145" />
     <text
        xml:space="preserve"
-       style="font-size:7.05556px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
-       x="141.74106"
+       style="font-size:7.05556011px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;stroke-width:0.26458299"
+       x="136.44939"
        y="146.27679"
        id="text1177"><tspan
          sodipodi:role="line"
          id="tspan1175"
-         x="141.74106"
+         x="136.44939"
          y="146.27679"
-         style="stroke-width:0.264583">double y = 4.0;</tspan><tspan
+         style="stroke-width:0.26458299">double y = 4.0;</tspan><tspan
          sodipodi:role="line"
-         x="141.74106"
+         x="136.44939"
          y="155.09624"
-         style="stroke-width:0.264583"
+         style="stroke-width:0.26458299"
          id="tspan1179">(8 bytes)</tspan></text>
     <text
        xml:space="preserve"
@@ -326,37 +326,37 @@
          style="stroke-width:0.264583">...</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:7.05556px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
-       x="144.3869"
-       y="126.24405"
+       style="font-size:7.05556011px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;stroke-width:0.26458299"
+       x="137.20535"
+       y="128.13393"
        id="text1265"><tspan
          sodipodi:role="line"
          id="tspan1263"
-         x="144.3869"
-         y="126.24405"
-         style="stroke-width:0.264583">&amp;x  (the address)</tspan></text>
+         x="137.20535"
+         y="128.13393"
+         style="stroke-width:0.26458299">&amp;x  (the address 1000)</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:7.05556px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
-       x="142.49702"
-       y="169.33333"
+       style="font-size:7.05556011px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;stroke-width:0.26458299"
+       x="136.82738"
+       y="167.44345"
        id="text1269"><tspan
          sodipodi:role="line"
          id="tspan1267"
-         x="142.49702"
-         y="169.33333"
-         style="stroke-width:0.264583">&amp;y (1004)</tspan></text>
+         x="136.82738"
+         y="167.44345"
+         style="stroke-width:0.26458299">&amp;y (1004)</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:7.05556px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
-       x="136.07144"
-       y="203.35118"
+       style="font-size:7.05556011px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;stroke-width:0.26458299"
+       x="134.93752"
+       y="202.21725"
        id="text1273"><tspan
          sodipodi:role="line"
          id="tspan1271"
-         x="136.07144"
-         y="203.35118"
-         style="stroke-width:0.264583">int arr[4] = {5, 2, 8, 3}</tspan></text>
+         x="134.93752"
+         y="202.21725"
+         style="stroke-width:0.26458299">int arr[4] = {5, 2, 8, 3};</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:7.05556px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
@@ -467,5 +467,16 @@
        style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker1424)"
        d="M 53.294642,281.59225 H 72.949405"
        id="path1420" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="133.56892"
+       y="260.04761"
+       id="text920"><tspan
+         sodipodi:role="line"
+         id="tspan918"
+         x="133.56892"
+         y="260.04761"
+         style="font-size:6.3499999px;stroke-width:0.26458332">&amp;arr[2] (the address 1020)</tspan></text>
   </g>
 </svg>
