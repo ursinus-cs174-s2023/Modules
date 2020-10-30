@@ -32,7 +32,7 @@ processor:
     
     - incorrectcheck: |
         pos.includes("|.")
-      feedback: "Try again.  If you're trying to add 1 to a value in a dereferenced pointer x, be sure to do (*x)++ and not *x++"
+      feedback: "Try again.  If you're trying to add 1 to a value in a dereferenced pointer x, be sure to do (*x)++ and not *x++.  Alternatively, if you're not doing that, make sure you're setting the dereferenced pointer to be equal to the size at the end before it returns (because it looks like you have a size of 0)."
  
 files:
   - filename: "Student Code"
