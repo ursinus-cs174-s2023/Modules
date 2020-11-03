@@ -48,7 +48,7 @@ files:
       };
 
       void testConDest() {
-        Person* bill = new Person((char*)"chris");
+        Person* bill = new Person((char*)"bill");
         // TODO: Finish this.  
         // Construct chris, then destruct chris, then destruct bill
       }
