@@ -14,6 +14,6 @@ Please watch the video below, and click the next button once you have finished
 
 <h2>Notes</h2>
 <ul>
-<li>Object reference pitfall #1: you should only delete objects that you've allocated dynamically with a <code>new</code></li>
-<li>Object reference pitfall #2: Since object values declared in a method are deleted when the method completes, you will get a segfault if you return and try to use references to them.</li>
+<li>Object reference pitfall 1: you should only delete objects that you've allocated dynamically with a <code>new</code></li>
+<li>Object reference pitfall 2: Since object values declared in a method are deleted when the method completes, you will get a segfault if you return and try to use references to them.</li>
 </ul>
