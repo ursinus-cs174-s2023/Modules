@@ -10,7 +10,7 @@ canvashalftries: 5
 info:
   prev: "./Video1"
   points: 1.5
-  instructions: "Fill in the containsKey() method of the LinkedMap class.  Hint: Most of what you need is already in the get method, you'll just have to re-arrange it a bit."
+  instructions: "Fill in the containsKey() method of the LinkedMap class.  Hint: Most of what you need is already in the get method, so you can just copy that code over and re-arrange it a bit."
   goals:
     - Work classes and objects in C++
     - Work with dynamic object references in C++
