@@ -1,8 +1,8 @@
 ---
 layout: exercise_cpp
 permalink: /Module11/Exercise1
-title: "CS174: Module 11: ADTs / STL"
-excerpt: "CS174: Module 11: ADTs / STL"
+title: "CS174: Module 11: ADTs / Linked Map"
+excerpt: "CS174: Module 11: ADTs / Linked Map"
 canvasasmtid: "103597"
 canvaspoints: "1.5"
 canvashalftries: 5

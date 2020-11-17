@@ -1,8 +1,8 @@
 ---
 layout: module
 permalink: /Module11/Video1
-title: "CS174: Module 11: ADTs / STL"
-excerpt: "CS174: Module 11: ADTs / STL"
+title: "CS174: Module 11: ADTs / Linked Map"
+excerpt: "CS174: Module 11: ADTs / Linked Map"
 
 info:
   next: "./Exercise1"
