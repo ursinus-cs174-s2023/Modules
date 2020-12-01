@@ -19,7 +19,7 @@ Please watch the video below, and click the next button once you have finished
 <li>The Ackermann function can be defined as 
 \[A(m, n) = \left\{  \begin{array}{cc} n+1 & m = 0 \\ A(m-1, 1) & n = 0 \\ A(m-1, A(m, n-1)) & \text{otherwise} \end{array}  \right\}\]
 </li>
-<li>The Ackermann function grows extremely quickly when m >= 4!  This means that its inverse grows very, very slowly.  Surprisingly, the inverse Ackermann function can be used to describe the theoretical growth in computation time for some simple algorithms.  We will discuss this more in CS 371.</li>
+<li>The Ackermann function grows extremely quickly when m >= 4!  This means that its inverse grows very, very slowly.  Surprisingly, the inverse Ackermann function can be used to describe the theoretical growth in computation time for some <a href = "https://en.wikipedia.org/wiki/Disjoint-set_data_structure">simple algorithms</a>.  We will discuss this more in CS 371.</li>
 <li>The factorial is defined as N! = N*(N-1)*(N-2)*..*1, which can be defined recursively as
 \[ f(N) = \left\{ \begin{array}{cc} 1 & N = 1 \\ N*f(N-1) & N > 1 \end{array} \right\} \]
 </li>
