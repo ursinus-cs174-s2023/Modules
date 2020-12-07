@@ -4,13 +4,13 @@ permalink: /Module15/Exercise1
 title: "CS174: Module 15: Binary Trees Intro"
 excerpt: "CS174: Module 15: Binary Trees Intro"
 canvasasmtid: "104849"
-canvaspoints: "1"
+canvaspoints: "1.5"
 canvashalftries: 5
 
 info:
   prev: "./Video1"
   next: "./Video2"
-  points: 1
+  points: 1.5
   instructions: "Fill in the makeTree() method to create the binary tree pictured below:<BR><img src = \"../images/Module15/Exercise1.svg\">"
   goals:
     - Manipulate nodes in a binary tree data structure
