@@ -1,9 +1,9 @@
 ---
 layout: exercise_cpp
-permalink: /Module6/Exercise1
-title: "CS174: Module 6: C++ Basics Part 1"
-excerpt: "CS174: Module 6: C++ Basics Part 1"
-canvasasmtid: "102599"
+permalink: /CPPBasics/Exercise1
+title: "CS174: C++ Basics Part 1"
+excerpt: "CS174: C++ Basics Part 1"
+canvasasmtid: "140164"
 canvaspoints: "1.5"
 canvashalftries: 5
 
@@ -11,11 +11,10 @@ info:
   prev: "./Video1"
   next: "./Video2"
   points: 1.5
-  instructions: "Create a method printDivisibleBy6() which takes one argument, and which prints the numbers from 6 up to and including the specified argument that are divisible by 6.  Please put a space in between each number.  As a hint, logical AND is also && in C++, just as it is in Java.  So for a number to be divisible by 6, you should use this to check that the number has a remainder of 0 when divided b 2, and also by 3."
+  instructions: "Create a method printDivisibleBy6() which takes one argument, and which prints the numbers from 6 up to and including the specified argument that are divisible by 6.  Put exactly one space in between each number.  The modulus % operator may help."
   goals:
     - Declare methods in C++
     - Work with loops in C++
-    - Use conditionals in C++
     - Use basic print statements in C++
     
 processor:  

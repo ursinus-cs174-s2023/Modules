@@ -1,9 +1,9 @@
 ---
 layout: exercise_cpp
-permalink: /Module6/Exercise2
-title: "CS174: Module 6: C++ Basics Part 2"
-excerpt: "CS174: Module 6: C++ Basics Part 2"
-canvasasmtid: "102600"
+permalink: /CPPBasics/Exercise2
+title: "CS174: C++ Basics Part 2"
+excerpt: "CS174: C++ Basics Part 2"
+canvasasmtid: "140165"
 canvaspoints: "1.5"
 canvashalftries: 5
 

@@ -1,8 +1,8 @@
 ---
 layout: module
-permalink: /Module6/Video2
-title: "CS174: Module 6: C++ Basics Part 2"
-excerpt: "CS174: Module 6: C++ Basics Part 2"
+permalink: /CPPBasics/Video2
+title: "CS174: C++ Basics Part 2"
+excerpt: "CS174: C++ Basics Part 2"
 
 info:
   next: "./Exercise2"
