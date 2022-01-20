@@ -5,7 +5,7 @@ formprocessor: "https://mathcs.ursinus.edu:8092/"
 enctype: "application/x-www-form-urlencoded"
 facultyemail: "ctralie@ursinus.edu"
 
-formprocessordirections: "Click <code>compile</code> to compile your code.  If it succeeds with no syntax errors, then click <code>run</code> to run your code.  If it passes the tests, it will automatically submit to Canvas and send you an e-mail. <strong>You must be connected to the VPN for submission to be successful!  You will receive a copy of your code via e-mail, so you'll know that it was submitted if you receive that e-mail!</strong>"
+formprocessordirections: "Click <code>compile</code> to compile your code.  If it succeeds with no syntax errors, then click <code>run</code> to run your code.  If it passes the tests, it will automatically submit to Canvas and send you an e-mail. <strong>You must be connected to the Ursinus Network for submission to be successful!  You will receive a copy of your code via e-mail, so you'll know that it was submitted if you receive that e-mail!</strong>"
 
 submitformlinkdirections: "Clicking Run below will check your work and, if it passes, make a page appear above that you can use to submit your work or with further instructions."
 ---
@@ -227,7 +227,7 @@ submitformlinkdirections: "Clicking Run below will check your work and, if it pa
             var xhttp = new XMLHttpRequest();
             xhttp.onerror = function(e){
                 if (vpnwarn) {
-                    alert("Unable to submit.  Are you connected to the VPN?  Please try to submit again!");
+                    alert("Unable to submit.  Are you connected to the Ursinus network?  Please try to submit again!");
                 }
             };
 
