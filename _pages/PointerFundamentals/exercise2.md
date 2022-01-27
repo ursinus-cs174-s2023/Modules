@@ -1,8 +1,8 @@
 ---
 layout: exercise_cpp
 permalink: /PointerFundamentals/Exercise2
-title: "CS174: Pointer Fundamentals Module: Exercise 1"
-excerpt: "CS174: Pointer Fundamentals Module: Exercise 1"
+title: "CS174: Pointer Fundamentals Module: Exercise 2"
+excerpt: "CS174: Pointer Fundamentals Module: Exercise 2"
 canvasasmtid: "142147"
 canvaspoints: "1.5"
 canvashalftries: 5

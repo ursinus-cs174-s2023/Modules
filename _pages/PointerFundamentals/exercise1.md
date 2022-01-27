@@ -9,7 +9,7 @@ canvashalftries: 5
 
 info:
   next: "./Exercise2"
-  points: 1
+  points: 1.5
   instructions: "Fill in a method that swaps the values of two elements in memory, which is a very useful operation in sorting algorithms, as we will see later."
   goals:
     - Work with pointers in C++
