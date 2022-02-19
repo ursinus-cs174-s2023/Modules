@@ -1,16 +1,16 @@
 ---
 layout: exercise_cpp
-permalink: /Module9/Exercise1
-title: "CS174: Module 9: C++ Classes: Exercise 1"
-excerpt: "CS174: Module 9: C++ Classes: Exercise 1"
-canvasasmtid: "103139"
-canvaspoints: "1"
+permalink: /CppClasses/Exercise1
+title: "CS174: Classes And Inheritance: C++ Classes: Exercise 1"
+excerpt: "CS174: Classes And Inheritance: C++ Classes: Exercise 1"
+canvasasmtid: "143424"
+canvaspoints: "1.5"
 canvashalftries: 5
 
 info:
   prev: "./Video1"
   next: "./Video2"
-  points: 1
+  points: 1.5
   instructions: "Fill in the celebrateNBirthdays() method to celebrate some number of birthdays on a particular Person object passed by reference.  Since you're working with a pointer to an object, you should use the arrow notation in a loop to call the celebrateBirthday() method on the object."
   goals:
     - Work classes and objects in C++

@@ -1,8 +1,8 @@
 ---
 layout: module
-permalink: /Module9/Video2
-title: "CS174: Module 9: Class Destructors"
-excerpt: "CS174: Module 9: Class Destructors"
+permalink: /CppClasses/Video2
+title: "CS174: Classes And Inheritance: Class Destructors"
+excerpt: "CS174: Classes And Inheritance: Class Destructors"
 
 info:
   next: "./Exercise2"

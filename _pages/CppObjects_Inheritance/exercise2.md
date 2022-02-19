@@ -1,15 +1,15 @@
 ---
 layout: exercise_cpp
-permalink: /Module9/Exercise2
-title: "CS174: Module 9: C++ Classes: Exercise 2"
-excerpt: "CS174: Module 9: C++ Classes: Exercise 2"
-canvasasmtid: "103140"
-canvaspoints: "1"
+permalink: /CppClasses/Exercise2
+title: "CS174: Classes And Inheritance: C++ Classes: Exercise 2"
+excerpt: "CS174: Classes And Inheritance: C++ Classes: Exercise 2"
+canvasasmtid: "143425"
+canvaspoints: "1.5"
 canvashalftries: 5
 
 info:
   prev: "./Video2"
-  points: 1
+  points: 1.5
   instructions: "Fill in the method testConDest().  This method should first construct a person named \"bill\", then construct a person named \"chris\", then destruct chris, and then destruct bill."
   goals:
     - Work with classes and objects in C++

@@ -1,8 +1,8 @@
 ---
 layout: module
-permalink: /Module9/Video1
-title: "CS174: Module 9: Intro To C++ Classes"
-excerpt: "CS174: Module 9: Intro To C++ Classes"
+permalink: /CppClasses/Video1
+title: "CS174: Classes And Inheritance: Intro To C++ Classes"
+excerpt: "CS174: Classes And Inheritance: Intro To C++ Classes"
 
 info:
   next: "./Exercise1"
