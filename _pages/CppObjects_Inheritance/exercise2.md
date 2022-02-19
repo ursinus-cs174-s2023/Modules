@@ -9,6 +9,7 @@ canvashalftries: 5
 
 info:
   prev: "./Video2"
+  next: "./Video3"
   points: 1.5
   instructions: "Fill in the method testConDest().  This method should first construct a person named \"bill\", then construct a person named \"chris\", then destruct chris, and then destruct bill."
   goals:

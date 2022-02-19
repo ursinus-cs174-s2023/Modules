@@ -17,5 +17,5 @@ Please watch the video below, and click the next button once you have finished
 <h1>Notes</h1>
 <ul>
 <li>Every class has a <b>destructor</b> which is called right before an object of that class is deleted.  It is declared with the tilde notation</li>
-<li>Static objects are destructed automatically at the end of the method in which they were declared.  Dynamic objects have to be destructed manually by calling <code>delete</code>, just like dynamic arrays.  Be sure to delete your dynamic objects after you're finished using them to avoid memory leaks!</li>
+<li>Statically declared objects are destructed automatically at the end of the method in which they were declared.  Dynamic objects have to be destructed manually by calling <code>delete</code>, just like dynamic arrays.  Be sure to delete your dynamic objects after you're finished using them to avoid memory leaks!</li>
 </ul>
