@@ -30,10 +30,10 @@ processor:
       feedback: "Try again.  It looks like you're not actually calling the celebrateBirthdays() method."
  
 files:
-  - filename: "Student Code"
-    name: student
+  - filename: "Person Class"
+    name: person
     ismain: false
-    isreadonly: false
+    isreadonly: true
     isvisible: true
     code: | 
       #include &ltstdio.h&gt
@@ -55,6 +55,12 @@ files:
               }    
       };
 
+  - filename: "Student Code"
+    name: student
+    ismain: false
+    isreadonly: false
+    isvisible: true
+    code: | 
       void celebrateNBirthdays(Person* p, int N) {
         // TODO: Fill this in
       }
