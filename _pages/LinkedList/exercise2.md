@@ -3,7 +3,7 @@ layout: exercise_cpp
 permalink: /LinkedList/Exercise2
 title: "CS174: Linked List Exercise 2"
 excerpt: "CS174: Linked List Exercise 2"
-canvasasmtid: "103550"
+canvasasmtid: "144447"
 canvaspoints: "1.5"
 canvashalftries: 5
 

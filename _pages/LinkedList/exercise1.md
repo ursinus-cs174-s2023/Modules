@@ -3,7 +3,7 @@ layout: exercise_cpp
 permalink: /LinkedList/Exercise1
 title: "CS174: STL List Class Exercise"
 excerpt: "CS174: STL List Class Exercise"
-canvasasmtid: "103550"
+canvasasmtid: "144446"
 canvaspoints: "1.5"
 canvashalftries: 5
 

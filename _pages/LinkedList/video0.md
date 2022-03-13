@@ -5,7 +5,7 @@ title: "CS174: Static (Stack) vs Dynamic (Heap) Object Review"
 excerpt: "CS174: Static (Stack) vs Dynamic (Heap) Object Review"
 
 info:
-  next: "./Video0"
+  next: "./Video1"
 ---
 
 Watch the video below that I dug up from fall 2020 to help you warm back up after spring break on static vs dynamic objects
