@@ -1,8 +1,8 @@
 ---
 layout: module
-permalink: /LinkedList/Video0
-title: "CS174: Static (Stack) vs Dynamic (Heap) Object Review"
-excerpt: "CS174: Static (Stack) vs Dynamic (Heap) Object Review"
+permalink: /LinkedList/Video1
+title: "CS174: STL List Class"
+excerpt: "CS174: STL List Class"
 
 info:
   prev: "./Video0"
@@ -15,81 +15,11 @@ Watch the video below on STL linked lists
 
 <h2>Notes</h2>
 
-<pre>
-<code>
-#include <stdio.h>
-#include <list>
+<ul>
+<li>Removing elements from an array is a pain because we have to allocate a new array and copy everything over except for the element we're trying to remove.  We also have to be super careful with memory, and there are a lot of pitfalls!</li>
+<li>There's something called a linked list in the STL library that is much better if we want to add/remove stuff.  The downside is that can't jump to any random location in it, and we always have to start at the beginning, but there are plenty of applications (like the invasive species assignment) where this tradeoff is totally worth it</li>
+</ul>
 
-using namespace std;
+<h2>Code</h2>
 
-class IntWrapper {
-    public:
-        int x;
-        IntWrapper(int x) {
-            this->x = x;
-        }
-};
-
-int main(int argc, char** argv) {
-    int N = 10;
-    list<IntWrapper*> arr;
-    for (int i = 0; i < N; i++) {
-        arr.push_back(new IntWrapper(i*i));
-    }
-
-    list<IntWrapper*>::iterator it;
-    // begin is the "head" of the list
-    // When I say it++, this follows the arrow to the next
-    // container object
-    for (it = arr.begin(); it != arr.end(); it++) {
-        IntWrapper* x = *it;
-        printf("%i ", x->x);
-    }
-    printf("\n");
-
-    for (it = arr.begin(); it != arr.end(); it++) {
-        IntWrapper* x = *it;
-        delete x;
-    }
-    return 0;
-}
-
-int main2(int argc, char** argv) {
-    int N = 10;
-    IntWrapper** arr = new IntWrapper*[N];
-    for (int i = 0; i < N; i++) {
-        arr[i] = new IntWrapper(i*i);
-    }
-
-    // TODO: Remove object at index idx from the array
-    // Step 1: Create a new array that's one smaller
-    int idx = 3;
-    IntWrapper** temp = new IntWrapper*[N-1];
-    // Step 2: Copy over everything before idx
-    for (int i = 0; i < idx; i++) {
-        temp[i] = arr[i];
-    }
-    // Step 3: Move over everything after idx to the left
-    // by 1 index in the new array
-    for (int i = idx+1; i < N; i++) {
-        temp[i-1] = arr[i]; // Everything shifts to the left
-    }
-    delete arr[idx];
-    delete[] arr; // Get rid of old array
-    N--;
-    arr = temp;
-
-    for (int i = 0; i < N; i++) {
-        printf("%i ", arr[i]->x);
-    }
-    printf("\n");
-
-    for (int i = 0; i < N; i++) {
-        delete arr[i];
-    }
-    delete[] arr;
-    return 0;
-}
-
-</code>
-</pre>
+<a href = "https://github.com/ursinus-cs174-s2022/Modules/blob/gh-pages/_pages/LinkedList/driver1.cpp">Click here</a> to see the code from the video

@@ -1,8 +1,8 @@
 ---
 layout: exercise_cpp
 permalink: /LinkedList/Exercise1
-title: "CS174: Linked List Exercise 1"
-excerpt: "CS174: Linked List Exercise 1"
+title: "CS174: STL List Class Exercise"
+excerpt: "CS174: STL List Class Exercise"
 canvasasmtid: "103550"
 canvaspoints: "1.5"
 canvashalftries: 5
