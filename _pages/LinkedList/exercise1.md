@@ -58,7 +58,7 @@ files:
         * @param arr Original linked list
         * @param arrRev Linked list that will hold the reverse of the elements
         */
-        void copyRev(list<IntWrapper*>& arr, list<IntWrapper*>& arrRev) {
+        void copyRev(list&lt;IntWrapper*&gt;& arr, list&lt;IntWrapper*&gt;& arrRev) {
             // TODO: Fill this in
         }
 
