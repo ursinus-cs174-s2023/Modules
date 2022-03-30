@@ -1,8 +1,8 @@
 ---
 layout: module
-permalink: /Module11/Video1
-title: "CS174: Module 11: ADTs / Linked Map"
-excerpt: "CS174: Module 11: ADTs / Linked Map"
+permalink: /LinkedMap/Video1
+title: "CS174: Linked Map Module"
+excerpt: "CS174: Linked Map Module"
 
 info:
   next: "./Exercise1"

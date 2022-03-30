@@ -1,15 +1,15 @@
 ---
 layout: exercise_cpp
-permalink: /Module11/Exercise1
-title: "CS174: Module 11: ADTs / Linked Map"
-excerpt: "CS174: Module 11: ADTs / Linked Map"
-canvasasmtid: "103597"
-canvaspoints: "1.5"
+permalink: /LinkedMap/Exercise1
+title: "CS174: Linked Map Module Exercise"
+excerpt: "CS174: Linked Map Module Exercise"
+canvasasmtid: "145391"
+canvaspoints: "2"
 canvashalftries: 5
 
 info:
   prev: "./Video1"
-  points: 1.5
+  points: 2
   instructions: "Fill in the containsKey() method of the LinkedMap class.  Hint: Most of what you need is already in the get method, so you can just copy that code over and re-arrange it a bit."
   goals:
     - Work classes and objects in C++
