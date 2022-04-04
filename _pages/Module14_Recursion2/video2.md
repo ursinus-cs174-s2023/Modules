@@ -5,7 +5,6 @@ title: "CS174: Module 14: Towers of Hanoi Optimal Steps"
 excerpt: "CS174: Module 14: Towers of Hanoi Optimal Steps"
 
 info:
-  prev: "./Video1"
   next: "./Exercise1"
 ---
 

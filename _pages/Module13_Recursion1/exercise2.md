@@ -3,13 +3,12 @@ layout: exercise_cpp
 permalink: /Module13/Exercise2
 title: "CS174: Module 13: Recursion Exercise 2"
 excerpt: "CS174: Module 13: Recursion Exercise 2"
-canvasasmtid: "104633"
+canvasasmtid: "145658"
 canvaspoints: "1"
 canvashalftries: 5
 
 info:
   prev: "./Video2"
-  next: "./Video3"
   points: 1
   instructions: "The code below has a working recursive implementation of fibonacci, but it is slow.  Speed it up by storing the results of the computation in the array 'memory' so that they can be reused later without repeating recursion."
   goals:
