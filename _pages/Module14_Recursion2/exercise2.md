@@ -3,7 +3,7 @@ layout: exercise_cpp
 permalink: /Module14/Exercise2
 title: "CS174: Module 14: Recursive Binary Search"
 excerpt: "CS174: Module 14: Recursive Binary Search"
-canvasasmtid: "104749"
+canvasasmtid: "145660"
 canvaspoints: "2"
 canvashalftries: 5
 
