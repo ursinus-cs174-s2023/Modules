@@ -10,7 +10,7 @@ canvashalftries: 5
 info:
   prev: "./Exercise1"
   points: 3
-  instructions: "Use memoization with a map data structure to speed up evaluation of the Ackermann function.  As a reminder, the definition is as follows:<p><img src = \"../images/Ackermann/AckermannFn.png\"></p>Fill in the code below to compute this function using recursive calls."
+  instructions: "Use memoization with a map data structure to speed up evaluation of the Ackermann function.  As a reminder, the definition is as follows:<p><img src = \"../images/Ackermann/AckermannFn.png\"></p>Fill in the code below to compute this function using recursive calls.  Memoization on the first two cases has already been provided for you, but you'll need to use memoization for the third case.  Note that there are actually two functions to memoize; the inside and the outside one."
   goals:
     - Work with recursive functions in C++
     - Implement the ackermann function using recursive calls
