@@ -3,7 +3,7 @@ layout: exercise_cpp
 permalink: /PointerFundamentals/Exercise1
 title: "CS174: Pointer Fundamentals Module: Exercise 1"
 excerpt: "CS174: Pointer Fundamentals Module: Exercise 1"
-canvasasmtid: "142146"
+canvasasmtid: "149488"
 canvaspoints: "1.5"
 canvashalftries: 5
 

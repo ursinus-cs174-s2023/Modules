@@ -3,7 +3,7 @@ layout: exercise_cpp
 permalink: /CPPBasics/Exercise1
 title: "CS174: C++ Basics Part 1"
 excerpt: "CS174: C++ Basics Part 1"
-canvasasmtid: "140164"
+canvasasmtid: "149486"
 canvaspoints: "1.5"
 canvashalftries: 5
 
