@@ -11,7 +11,7 @@ info:
   prev: "./Video1"
   next: "./Video2"
   points: 1.5
-  instructions: "Create a method printDivisibleBy6() which takes one argument, and which prints the numbers from 6 up to and including the specified argument that are divisible by 6.  Put exactly one space in between each number.  The modulus % operator may help."
+  instructions: "Create a method printDivisibleBy6() which takes one argument, and which prints the numbers from 6 up to and including the specified argument that are divisible by 6.  Put exactly one space after each number.  The modulus % operator may help."
   goals:
     - Declare methods in C++
     - Work with loops in C++
@@ -33,6 +33,10 @@ processor:
     - incorrectcheck: |
         pos.includes("0 6 12")
       feedback: "Try again.  Start looping at 6, not 0"
+
+    - incorrectcheck: |
+        pos.includes("6 12 18 24 30 36 42 48 54 60 66 72 78 84 90 96 102 108 114 120 126 132 138 144 150 156 162 168 174 180 186 192 198 204 210 216 222 228 234 240 246 252 258 264 270 276 282 288 294 300 306 312 318 324 330 336 342 348 354 360 366 372 378 384 390 396 402 408 414 420 426 432 438 444 450 456 462 468 474 480 486 492 498. 6 12 18 24 30 36 42 48")
+      feedback: "Try again.  You're so close!  Be sure to put a space *after* each number instead of before"
  
 files:
   - filename: "Student Code"
