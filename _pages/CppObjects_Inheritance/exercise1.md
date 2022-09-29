@@ -3,7 +3,7 @@ layout: exercise_cpp
 permalink: /CppClasses/Exercise1
 title: "CS174: Classes And Inheritance: C++ Classes: Exercise 1"
 excerpt: "CS174: Classes And Inheritance: C++ Classes: Exercise 1"
-canvasasmtid: "143424"
+canvasasmtid: "157869"
 canvaspoints: "1.5"
 canvashalftries: 5
 
