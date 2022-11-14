@@ -3,14 +3,14 @@ layout: exercise_cpp
 permalink: /Ackermann/Exercise2
 title: "CS174: Ackermann Function Memoization Exercise"
 excerpt: "CS174: Ackermann Function Memoization Exercise"
-canvasasmtid: "145679"
+canvasasmtid: "159926"
 canvaspoints: "3"
 canvashalftries: 5
 
 info:
   prev: "./Exercise1"
   points: 3
-  instructions: "Use memoization with a map data structure to speed up evaluation of the Ackermann function.  As a reminder, the definition is as follows:<p><img src = \"../images/Ackermann/AckermannFn.png\"></p>Fill in the code below to compute this function using recursive calls.  Memoization on the first two cases has already been provided for you, but you'll need to use memoization for the third case.  Note that there are actually two functions to memoize; the inside and the outside one."
+  instructions: "Use memoization with a map data structure to speed up evaluation of the Ackermann function.  <a href = \"../../CoursePage/ClassExercises/Week10_Recursion/index.html#maps\">Click here</a> to review how memoization works using maps.  A map has been setup where the key is a string, and the value is the memoized function value of the Ackermann function.  A utility function has been provided called getKey to convert the two parameter inputs to ackermann into a string.  As a reminder, the definition is as follows:<p><img src = \"../images/Ackermann/AckermannFn.png\"></p>"
   goals:
     - Work with recursive functions in C++
     - Implement the ackermann function using recursive calls
@@ -23,14 +23,11 @@ processor:
   feedbackprocess: | 
     var pos = runtime.text.trim();
   correctcheck: |
-    pos.includes("7 (15). 61 (169).125 (484).") 
+    pos.includes("7 (17). 61 (203).125 (583).") 
   incorrectchecks:
     - incorrectcheck: |
-        pos.includes("7 (17). 61 (203).125 (583).")
-      feedback: "Try again. Don't forget to check for the inner recursive call in memory and to save it to memory!"  
-    - incorrectcheck: |
-        pos.includes("7 (25). 61 (2397).125 (12579).")
-      feedback: "Try again. Don't forget to save the result that you compute to memory!"  
+        pos.includes("7 (27). 61 (2459).125 (12766).")
+      feedback: "Try again. Don't forget to save the result that you compute to memory, and/or don't forget to use a result that's already stored in memory instead of recomputing it!"  
  
 files:
   - filename: "Student Code"
@@ -75,21 +72,14 @@ files:
           (*count)++;
           string s = getKey(m, n);
           int res = 0;
-          if (memory.find(s) != memory.end()) {
-            res = memory[s];
+          if (m == 0) {
+            res = n+1;
+          }
+          else if (n == 0) {
+            res = A(m-1, 1, count, memory);
           }
           else {
-            if (m == 0) {
-              res = n+1;
-              memory.insert(pair&ltstring, int&gt(s, res));
-            }
-            else if (n == 0) {
-              res = A(m-1, 1, count, memory);
-              memory.insert(pair&ltstring, int&gt(s, res));
-            }
-            else {
-              // TODO: Fill this in
-            }
+            // TODO: Fill this in
           }
           return res;
         }

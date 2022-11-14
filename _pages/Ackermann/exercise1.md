@@ -3,7 +3,7 @@ layout: exercise_cpp
 permalink: /Ackermann/Exercise1
 title: "CS174: Ackermann Function Exercise"
 excerpt: "CS174: Ackermann Function Exercise"
-canvasasmtid: "145678"
+canvasasmtid: "159925"
 canvaspoints: "2"
 canvashalftries: 5
 
