@@ -3,7 +3,7 @@ layout: exercise_cpp
 permalink: /MergeSort/Exercise
 title: "CS174: Merge Sort Exercise"
 excerpt: "CS174: Merge Sort Exercise"
-canvasasmtid: "160110"
+canvasasmtid: "164012"
 canvaspoints: "2"
 canvashalftries: 5
 
