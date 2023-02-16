@@ -11,7 +11,7 @@ info:
   prev: "./Video3"
   next: "./Video4"
   points: 1.5
-  instructions: "Fill in the method <code>ageBy10()</code> to call the instance method <code>celebrateBirthday()</code> 10 times on the <code>Person</code> object pointed to by <code>p</code>."
+  instructions: "Fill in the method <code>clone</code> to return a dynamically allocated <code>Person</code> object with the same age and name as <code>this</code> person."
   goals:
     - Work classes and objects in C++
     - Work with object references in C++
