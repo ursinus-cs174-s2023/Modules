@@ -1,12 +1,11 @@
 ---
 layout: module
-permalink: /CppClasses/Video3
+permalink: /CppInheritance/Video1
 title: "CS174: Classes And Inheritance: public, private, static"
 excerpt: "CS174: Classes And Inheritance: public, private, static"
 
 info:
-  next: "./Video4"
-  prev: "./Exercise2"
+  next: "./Video2"
   
 ---
 

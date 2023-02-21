@@ -1,12 +1,12 @@
 ---
 layout: module
-permalink: /CppClasses/Video4
+permalink: /CppInheritance/Video2
 title: "CS174: Classes And Inheritance: The Inheritance Concept"
 excerpt: "CS174: Classes And Inheritance: The Inheritance Concept"
 
 info:
-  next: "./Exercise3"
-  prev: "./Video3"
+  next: "./Exercise1"
+  prev: "./Video1"
   
 ---
 

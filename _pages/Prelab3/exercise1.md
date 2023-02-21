@@ -1,15 +1,15 @@
 ---
 layout: exercise_cpp
-permalink: /CppClasses/Exercise3
-title: "CS174: Classes And Inheritance: C++ Classes: Exercise 3"
-excerpt: "CS174: Classes And Inheritance: C++ Classes: Exercise 3"
-canvasasmtid: "164009"
-canvaspoints: "1.5"
+permalink: /CppInheritance/Exercise1
+title: "CS174: Classes And Inheritance Exercise"
+excerpt: "CS174: Classes And Inheritance Exercise"
+canvasasmtid: "171272"
+canvaspoints: "2"
 canvashalftries: 5
 
 info:
-  prev: "./Video4"
-  points: 1.5
+  prev: "./Video2"
+  points: 2
   instructions: "The code below starts you with a simple <code>Person</code> class.  Define a child class <code>Immortal</code> which inherits from parent, and whose constructor takes a single parameter of the name.  The age should always set to 999999999 when invoking the parent constructor."
   goals:
     - Work with classes and objects in C++
