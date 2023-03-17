@@ -1,9 +1,9 @@
 ---
 layout: exercise_cpp
 permalink: /LinkedList/Exercise2
-title: "CS174: Linked List Exercise 2"
-excerpt: "CS174: Linked List Exercise 2"
-canvasasmtid: "144447"
+title: "CS174: Linked List: addFirst()"
+excerpt: "CS174: Linked List: addFirst()"
+canvasasmtid: "172468"
 canvaspoints: "1.5"
 canvashalftries: 5
 
@@ -85,14 +85,7 @@ files:
               }
               void addFirst(Printable* obj) {
                   LinkedNode* node = new LinkedNode(obj);
-                  if (head == NULL) {
-                      // Edge case: The list is empty, so this new node becomes
-                      // the head
-                      head = node;
-                  }
-                  else {
-                      // TODO: Fill this in.  Add this new node to the front
-                  }
+                  // TODO: Fill this in (it may be helpful to review some class notes)
               }
               void printList() {
                   // Start at the head

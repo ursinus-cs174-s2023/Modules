@@ -1,9 +1,9 @@
 ---
 layout: exercise_cpp
 permalink: /LinkedList/Exercise3
-title: "CS174: Linked List Exercise 3"
-excerpt: "CS174: Linked List Exercise 3"
-canvasasmtid: "144448"
+title: "CS174: Linked List: remove()"
+excerpt: "CS174: Linked List: remove()"
+canvasasmtid: "172469"
 canvaspoints: "2.5"
 canvashalftries: 5
 
@@ -83,22 +83,20 @@ files:
                 }
                 void addFirst(Printable* obj) {
                     LinkedNode* node = new LinkedNode(obj);
-                    if (head == NULL) {
-                        // Edge case: The list is empty, so this new node becomes
-                        // the head
-                        head = node;
-                    }
-                    else {
-                        // TODO: Fill this in.  Add this new node to the front
-                    }
-                    
+                    // TODO: Fill this in
+                }
+
+                void removeFirst() {
+                    LinkedNode* toDelete = head;
+                    head = head->next;
+                    delete toDelete; // Clean up dynamic memory
                 }
 
                 void remove(Printable* obj) {
                     if (head != NULL) {
-                        // Only remove objects that exist
                         if (head->obj == obj) {
-                            head = head->next;
+                            // Special case: The object is at the front of the list
+                            removeFirst();
                         }
                         else {
                             // The object might be somewhere in the middle

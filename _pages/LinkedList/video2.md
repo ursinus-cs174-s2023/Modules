@@ -5,7 +5,7 @@ title: "CS174: Making Your Own Linked List"
 excerpt: "CS174: Making Your Own Linked List"
 
 info:
-  prev: "./Video1b"
+  prev: "./Video0"
   next: "./Exercise2"
 ---
 
