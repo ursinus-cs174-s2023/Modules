@@ -15,6 +15,8 @@ Watch the video below on linked lists.  The code will be provided as starter cod
 
 <h2>Notes</h2>
 
+<p><b>IMPORTANT NOTE:</b> In the video I forgot to cleanup the memory from the dynamically allocated node when removing!  I fixed this on the code on the next page</p>
+
 <ul>
 <li>Removing objects in linked lists is as simple as creating a shortcut around a node, as shown below:</li>
 </ul>
