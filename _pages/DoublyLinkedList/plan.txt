@@ -1,0 +1,7 @@
+* Go over stacks and queues code
+* Talk about limitation of addLast implementation for queue
+* Talk about adding a tail reference, but show shortcoming
+* Show addLast
+
+Exercise:
+Put steps in the right order to addFirst
